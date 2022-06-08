@@ -1,0 +1,45 @@
+@media screen and (max-width: 767px){
+    .img-banner-responsive{
+        object-fit: cover;
+        height: 250px;
+    }
+}
+
+footer{
+    overflow-x: hidden
+}
+
+#img1{
+    border-radius: 50px;
+    filter: blur(10px);
+    position: relative;
+}
+#img1:hover{
+    border-radius: 50px;
+    filter: blur(0px);
+    transition: 1s;
+}
+
+#img2{
+    border-radius: 50px;
+    filter: grayscale(100%);
+}
+#img2:hover{
+    border-radius: 50px;
+    filter: grayscale(0%);
+    transition: 1s;
+}
+
+
+
+#img3:hover{
+    border-radius: 50px;
+    filter: brightness(100%); 
+    transition: 1s;
+    bottom: 2px;
+    left: 2px;
+}
+#img3{
+    border-radius: 50px;
+    filter: brightness(10%); 
+}
